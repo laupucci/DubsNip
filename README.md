@@ -51,18 +51,18 @@ This version is for web.
 > node -v
 
 - **Env**: in api and client you will have to create a file named ".env" with the following form, filling each one of the variables:
-> DB_USER=userPostgreSQL
-> DB_PASSWORD=passwordPostgreSQL
-> DB_HOST=localhostPostgreSQL
-> PORT=1337
-> JWT_SECRET
-> GOOGLE_CLIENT_ID
-> GOOGLE_CLIENT_SECRET
-> MAILGUN_API_KEY
-> MAILGUN_DOMAIN
-> MERCADOPAGO_ACCESS_TOKEN
-> API_URL=http://localhost:1337
-> CLIENT_URL=http://localhost:3000
+> - DB_USER=userPostgreSQL
+> - DB_PASSWORD=passwordPostgreSQL
+> - DB_HOST=localhostPostgreSQL
+> - PORT=1337
+> - JWT_SECRET
+> - GOOGLE_CLIENT_ID
+> - GOOGLE_CLIENT_SECRET
+> - MAILGUN_API_KEY
+> - MAILGUN_DOMAIN
+> - MERCADOPAGO_ACCESS_TOKEN
+> - API_URL=http://localhost:1337
+> - CLIENT_URL=http://localhost:3000
 
 - **Start**: initialize the App with the following command in both terminals.
 npm start
