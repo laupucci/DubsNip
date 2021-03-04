@@ -65,6 +65,6 @@ This version is for web.
 > - CLIENT_URL=http://localhost:3000
 
 - **Start**: initialize the App with the following command in both terminals.
-npm start
+> npm start
 
 
